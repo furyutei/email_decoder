@@ -1,8 +1,10 @@
 email_decoder
 =============
-日本語対応 E-Mail デコーダ
-　License: The MIT license  
-　Copyright (c) 2011-2015 風柳(furyu)  
+日本語対応 E-Mail デコーダ  
+  
+License: The MIT license  
+Copyright (c) 2011-2015 風柳(furyu)  
+
 
 ■ 使い方
 ---
@@ -11,8 +13,10 @@ from email_decoder import email_decoder
 
 mail = email_decoder( mail_text_or_file )
 ```
+※具体的な使い方は [print_email.py](https://github.com/furyutei/email_decoder/blob/master/sample/print_email.py) を参照  
 
-■ サンプル
+
+■ [サンプル](https://github.com/furyutei/email_decoder/tree/master/sample)
 ---
 ```sh
 $ cd sample
